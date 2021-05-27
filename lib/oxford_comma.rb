@@ -10,7 +10,6 @@ def oxford_comma(array)
     last_item = array.last
     delete_last = last_item.delete
     array = array.join(', ') << ", and #{last_item}"
-        
   end
   
 end
